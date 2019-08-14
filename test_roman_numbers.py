@@ -7,6 +7,10 @@ class TestRomanNumbers(unittest.TestCase):
         decimal_number = roman_to_decimal('I')
         self.assertEqual(decimal_number, 1)
 
+    def test_roman_II_to_decimal(self):
+        decimal_number = roman_to_decimal('II')
+        self.assertEqual(decimal_number, 2)
+
 
 if __name__ == '__main__':
     unittest.main()
